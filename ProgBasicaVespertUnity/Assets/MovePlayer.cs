@@ -23,7 +23,6 @@ public class MovePlayer : MonoBehaviour
 	transform.position = novaPos;
     }
 }
-
         
 	
         
