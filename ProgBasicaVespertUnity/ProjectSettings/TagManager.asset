@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: rbekgrand
+    uniqueID: 2079337379
+    locked: 0
+  - name: coleta
+    uniqueID: 2670227241
+    locked: 0
+  - name: jogador
+    uniqueID: 1369593119
+    locked: 0
