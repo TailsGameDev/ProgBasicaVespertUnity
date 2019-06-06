@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 4209062375
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: coletavel
+    uniqueID: 2545324151
+    locked: 0
+  - name: jogador
+    uniqueID: 369633153
     locked: 0
