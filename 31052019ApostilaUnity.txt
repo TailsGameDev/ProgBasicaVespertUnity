@@ -1,6 +1,11 @@
 Editor da Unity
+-Janelinhas da Unity
+-Navegando na cena
+
+SortingLayers
 
 Movimentação
+-Com Transform
 
 Input
 
