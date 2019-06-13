@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    public float vel = 8;  
+    public float vel = 10;  
 
     // Start is called before the first frame update
     void Update()
     {
-        Move(Input.GetKey("w"), Input.GetKey("a"), Input.GetKey("s"), Input.GetKey("d"));
+        //Move(Input.GetKey("w"), Input.GetKey("a"), Input.GetKey("s"), Input.GetKey("d"));
     }
 
     // Move
-    void Move(bool w, bool a, bool s, bool d)
+    public void Move(bool w, bool a, bool s, bool d)
     {
 
         float speed = vel * Time.deltaTime;
