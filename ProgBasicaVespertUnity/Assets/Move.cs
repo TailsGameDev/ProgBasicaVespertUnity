@@ -15,7 +15,7 @@ public class Move : MonoBehaviour
 	if(s){ novaPos = novaPos + new Vector3(0,-speed, 0); }
 	if(d){ novaPos = novaPos + new Vector3(speed,0, 0); }
 	if(a){ novaPos = novaPos + new Vector3(-speed,0, 0); }
-	transform.position = novaPos;
+	this.transform.position = novaPos;
     }
 }
         
