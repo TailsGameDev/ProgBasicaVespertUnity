@@ -6,13 +6,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
+//se quiser execute esse codigo no rextester.com
+
+//login pro github:
+//alunoscgames
+//scgames1234
+
 //Apostila Unity:
 // https://docs.google.com/document/d/1UXQjldUH9oJnsKJxCcb9MM7sA7Qga_Zj4zAythm82zI/edit?usp=sharing
 
 namespace Rextester {
     public class Program {
         public static void Main (string[] args) {
-
+            
+            //na Unity eh soh print("texto para imprimir");
             Console.WriteLine("Hello, World!");
 
             //criar variavel
@@ -30,9 +37,10 @@ namespace Rextester {
                                     //tem que colocar um 'f' depois de um numero float pro compilador entender que eh float e nao double.
 
             Console.WriteLine(meuDouble * meuFloat);
+            // alem de multiplicacao ( * ) temos: + - /
 
             //variavel booleana
-            bool celularFazContas = false;
+            bool celularFazContas = true;
             bool dispositivo2FazContas = false;
             // && eh a mesma coisa que o operador 'e' ; || eh a mesma coisa que o operador 'ou'
             Console.WriteLine("operacao ou: " + (celularFazContas || dispositivo2FazContas));
@@ -72,6 +80,7 @@ namespace Rextester {
             Console.WriteLine("Input coletado " + testString);
 
             int iterador = 5;
+            // mais opções: > , < , >= , <= , == (igual), != (diferente)
             while (iterador > 0) {
                 Console.WriteLine("Repetindo com while: " + iterador);
                 iterador = iterador - 1; // eh igual a escrever iterador--;
