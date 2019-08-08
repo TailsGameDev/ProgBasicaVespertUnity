@@ -8,7 +8,7 @@ public class InputPlayer : MonoBehaviour
 
     void Start()
     {
-        scriptQueAnda= GetComponent<Move>();
+        scriptQueAnda= this.GetComponent<Move>();
     }
 
     // Update is called once per frame
