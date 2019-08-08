@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ColetaItens : MonoBehaviour
 {
-    public float pontos = 0;
+    int pontos = 0;
+    public Text placar; 
+
     private void OnTriggerEnter2D (Collider2D col)
     {
         Destroy(col.gameObject);
-        pontos = +1;
+        pontos = pontos + 1;
+        placar.text = "Pontos:"+pontos;   
     }
 }
